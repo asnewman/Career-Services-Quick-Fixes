@@ -1,0 +1,9 @@
+/* Quick fix file for the Career Services Website */
+/* All code here is temporary until access to the AWS S3 is granted */
+
+/* Author: Ashley Newman (asnewman@calpoly.edu) */
+/* Last updated: Oct 12 2017 */
+
+.quarter-smaller-text {
+   font-size: 75%;
+}
