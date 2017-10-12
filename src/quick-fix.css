@@ -5,5 +5,5 @@
 /* Last updated: Oct 12 2017 */
 
 .quarter-smaller-text {
-   font-size: 10px;
+   white-space: nowrap;
 }
