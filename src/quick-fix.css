@@ -8,3 +8,7 @@
    white-space: nowrap;
    overflow: scroll;
 }
+
+.center-div {
+   margin: 0 auto;  
+}
