@@ -18,5 +18,5 @@
 .top-banner {
    width: 33%;
    border: solid red 1px;
-   display: block-inline;
+   display: inline-block;
 }
