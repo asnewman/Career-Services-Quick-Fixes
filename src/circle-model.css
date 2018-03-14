@@ -9,7 +9,7 @@
 
 }
 
-.circle p .quarter p {
+.circle p {
    color: #FFF !important;
    font-family: 'Open Sans', sans-serif !important; /* Sadly, all these important tags are necessary due to files I do not have access to */
    font-size: 14px !important;
