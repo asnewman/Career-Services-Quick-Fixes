@@ -60,7 +60,7 @@
 /* -----Middle Circle----- */
 .middle {
 	position: absolute !important;
-   top: 60px !important;
+   top: 55px !important;
    left: 50px !important;
 	background-color: #035642 !important;
 	width: 400px !important;
@@ -113,7 +113,7 @@
 .q1 {
 	border-radius: 100% 0 0 0 !important;
 	background-color: #ccc5b5 !important;
-	top: 110px !important;
+	top: 105px !important;
 	left: 100px !important;
    -webkit-animation-delay: .4s;
    -moz-animation-delay: .4s;
@@ -133,7 +133,7 @@
 .q2 {
 	border-radius: 0 100% 0 0 !important;
 	background-color: #9cad89 !important;
-	top: 110px !important;
+	top: 105px !important;
 	left: 250px !important;
    -webkit-animation-delay: .6s;
    -moz-animation-delay: .6s;
@@ -153,7 +153,7 @@
 .q3 {
 	border-radius: 0 0 100% 0 !important;
 	background-color: #85766f !important;
-	top: 260px !important;
+	top: 255px !important;
 	left: 250px !important;
    -webkit-animation-delay: .8s;
    -moz-animation-delay: .8s;
@@ -173,7 +173,7 @@
 .q4 {
 	border-radius: 0 0 0 100% !important;
 	background-color: #b5a37f !important;
-	top: 260px !important;
+	top: 255px !important;
 	left: 100px !important;
    -webkit-animation-delay: 1s;
    -moz-animation-delay: 1s;
