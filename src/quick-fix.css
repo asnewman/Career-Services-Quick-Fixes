@@ -5,7 +5,7 @@
 /* Last updated: Oct 12 2017 */
 
 .long-title {
-   font-size: 12px !important;
+   font-size: 10px !important;
    white-space: nowrap;
    overflow: scroll;
 }
