@@ -5,7 +5,8 @@
 /* Last updated: Oct 12 2017 */
 
 .long-title {
-   font-size: 18px !important;
+   font-size: 18px !important; /* Sadly the important tags are necessary due to files I cannot access */
+   padding-left: 49.5 !important;
    white-space: nowrap;
    overflow: scroll;
 }
