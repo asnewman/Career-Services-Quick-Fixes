@@ -11,7 +11,7 @@ body {
    font-size: 14px;
 }
 
-.main {
+.circle-main {
    width:500px;
    height: 500px;
    border: solid red 1px;
