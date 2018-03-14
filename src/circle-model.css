@@ -7,8 +7,11 @@
 /* -----General----- */
 * {
    font-family: 'Open Sans', sans-serif !important; /* Sadly, all these important tags are necessary due to files I do not have access too */
-   color: #FFF !important;
    font-size: 14px !important;
+}
+
+.circle .quarter {
+   color: #FFF !important;
 }
 
 .circle-main {
