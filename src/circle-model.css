@@ -15,6 +15,12 @@
    font-size: 14px !important;
 }
 
+.quarter p {
+   color: #FFF !important;
+   font-family: 'Open Sans', sans-serif !important; /* Sadly, all these important tags are necessary due to files I do not have access to */
+   font-size: 14px !important;
+}
+
 .circle-main {
    width:500px !important;
    height: 1000px !important;
