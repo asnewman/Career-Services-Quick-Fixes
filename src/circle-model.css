@@ -1,0 +1,222 @@
+/*
+ * Created by: Ashley Newman (asnewman@calpoly.edu)
+ * Last updated: 10/20/2017
+ * Used for the Career Services Readiness Model
+ */
+
+/* -----General----- */
+body {
+   font-family: 'Open Sans', sans-serif;
+   color: #FFF;
+   font-size: 14px;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+/* -----Outer Circle----- */
+.outer {
+	position: relative;
+	background-color:  #B4A76C;
+	width: 500px;
+	height: 500px;
+   text-align: center;
+}
+
+.outer p {
+   padding-top: 15px;
+}
+
+.outer:hover {
+   transform: scale(1.05);
+   -webkit-transform: scale(1.05);
+   -moz-transform: scale(1.05);
+   transition: all 200ms ease-in;
+   -webkit-transition: all 200ms ease-in;
+   -moz-transition: all 200ms ease-in;
+}
+
+.outer:hover ~ .info-box #emotional-intelligence {
+   display: block;
+}
+
+/* -----Middle Circle----- */
+.middle {
+	position: absolute;
+   top: 60px;
+   left: 55px;
+	background-color: #035642;
+	width: 400px;
+	height: 400px;
+   text-align: center;
+   animation-delay: 1s;
+   -webkit-animation-delay: .2s;
+   -moz-animation-delay: .2s;
+   -ms-animation-delay: .2s;
+}
+
+.middle p {
+   padding-top: 5px;
+}
+
+.middle:hover {
+   transform: scale(1.05);
+   -webkit-transform: scale(1.05);
+   -moz-transform: scale(1.05);
+   transition: all 200ms ease-in;
+   -webkit-transition: all 200ms ease-in;
+   -moz-transition: all 200ms ease-in;
+}
+
+.middle:hover ~ .info-box #diversity-inclusivity {
+   display: block;
+}
+/* -----Quarters----- */
+.quarter {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+}
+
+.quarter:hover {
+   z-index: 1000;
+   transform: scale(1.05);
+   -webkit-transform: scale(1.05);
+   -moz-transform: scale(1.05);
+   transition: all 200ms ease-in;
+   -webkit-transition: all 200ms ease-in;
+   -moz-transition: all 200ms ease-in;
+}
+
+.quarter p {
+   text-align: center;
+}
+
+/* ---q1--- */
+.q1 {
+	border-radius: 100% 0 0 0;
+	background-color: #ccc5b5;
+	top: 110;
+	left: 105;
+   -webkit-animation-delay: .4s;
+   -moz-animation-delay: .4s;
+   -ms-animation-delay: .4s;
+}
+
+.q1 p {
+   position: absolute;
+   top: 65px;
+   left: 65px;
+}
+
+.q1:hover ~ .info-box #growth-mindset {
+   display: block;
+}
+/* ---q2--- */
+.q2 {
+	border-radius: 0 100% 0 0;
+	background-color: #9cad89;
+	top: 110;
+	left: 255;
+   -webkit-animation-delay: .6s;
+   -moz-animation-delay: .6s;
+   -ms-animation-delay: .6s;
+}
+
+.q2 p {
+   position: absolute;
+   top: 65px;
+   left: 20px;
+}
+
+.q2:hover ~ .info-box #relationship-management {
+   display: block;
+}
+/* ---q3--- */
+.q3 {
+	border-radius: 0 0 100% 0;
+	background-color: #85766f;
+	top: 260;
+	left: 255;
+   -webkit-animation-delay: .8s;
+   -moz-animation-delay: .8s;
+   -ms-animation-delay: .8s;
+}
+
+.q3 p {
+   position: absolute;
+   top: 10px;
+   left: 20px;
+}
+
+.q3:hover ~ .info-box #professional-foundation {
+   display: block;
+}
+/* ---q4--- */
+.q4 {
+	border-radius: 0 0 0 100%;
+	background-color: #b5a37f;
+	top: 260;
+	left: 105;
+   -webkit-animation-delay: 1s;
+   -moz-animation-delay: 1s;
+   -ms-animation-delay: 1s;
+}
+
+.q4 p {
+   position: absolute;
+   top: 10px;
+   left: 55px;
+}
+
+.q4:hover ~ .info-box #career-navigation {
+   display: block;
+}
+/* ---Information Boxes--- */
+.info-box {
+   color: #000;
+   width: 600px;
+   margin-top: 20px;
+}
+
+.info-box img {
+   padding: 0;
+   margin: 0;
+   margin-bottom: -8px;
+   width: 40px;
+}
+
+.extra-padding {
+   padding: 20px;
+}
+
+#emotional-intelligence {
+   background-color: #F3ECE1;
+   display: none;
+}
+
+#diversity-inclusivity {
+   background-color: #D3DED8;
+   display: none;
+}
+
+#relationship-management {
+	background-color: #EEF0E8;
+   display: none;
+}
+
+#professional-foundation {
+   background-color: #DEDDDE;
+   display: none;
+}
+
+#career-navigation {
+   background-color: #E8E0D4;
+   display: none;
+}
+
+#growth-mindset {
+   background-color: #D9D4C6;
+   display: none;
+}
