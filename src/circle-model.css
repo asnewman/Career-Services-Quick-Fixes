@@ -11,6 +11,12 @@ body {
    font-size: 14px;
 }
 
+.main {
+   width:500px;
+   height: 500px;
+   position: relative;
+}
+
 .circle {
 	border-radius: 50%;
 }
