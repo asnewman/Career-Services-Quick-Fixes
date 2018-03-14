@@ -6,7 +6,7 @@
 
 .long-title {
    font-size: 18px !important; /* Sadly, the important tags are necessary due to files I cannot access */
-   padding-left: 49.5 !important;
+   padding-left: 49.5px !important;
    white-space: nowrap;
    overflow: scroll;
 }
