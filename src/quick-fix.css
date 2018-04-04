@@ -8,7 +8,7 @@
    font-size: 16px !important; /* Sadly, the important tags are necessary due to files I cannot access */
    padding-left: 49.5px !important;
    white-space: nowrap;
-   overflow: scroll;
+   overflow: hidden;
 }
 
 .linkedin-div {
