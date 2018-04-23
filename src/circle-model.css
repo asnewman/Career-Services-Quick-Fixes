@@ -213,7 +213,7 @@
    background-color: #F3ECE1;
    position: absolute;
    width: 560px;
-   left: -1000px;
+   left: -99999999px;
    top: 520px;
 }
 
@@ -221,7 +221,7 @@
    background-color: #D3DED8;
    position: absolute;
    width: 560px;
-   left: -1000px;
+   left: -99999999px;
    top: 520px;
 }
 
@@ -229,7 +229,7 @@
 	background-color: #EEF0E8;
    position: absolute;
    width: 560px;
-   left: -1000px;
+   left: -99999999px;
    top: 520px;
 }
 
@@ -237,7 +237,7 @@
    background-color: #DEDDDE;
    position: absolute;
    width: 560px;
-   left: -1000px;
+   left: -99999999px;
    top: 520px;
 }
 
@@ -245,7 +245,7 @@
    background-color: #E8E0D4;
    position: absolute;
    width: 560px;
-   left: -1000px;
+   left: -99999999px;
    top: 520px;
 }
 
@@ -253,6 +253,6 @@
    background-color: #D9D4C6;
    position: absolute;
    width: 560px;
-   left: -1000px;
+   left: -99999999px;
    top: 520px;
 }
