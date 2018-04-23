@@ -1,6 +1,6 @@
 /*
  * Created by: Ashley Newman (asnewman@calpoly.edu)
- * Last updated: 10/20/2017
+ * Last updated: 04/23/2018
  * Used for the Career Services Readiness Model
  */
 
@@ -54,7 +54,7 @@
 }
 
 .outer:hover ~ .info-box #emotional-intelligence {
-   display: block;
+   left: 0;
 }
 
 /* -----Middle Circle----- */
@@ -86,7 +86,7 @@
 }
 
 .middle:hover ~ .info-box #diversity-inclusivity {
-   display: block;
+   left: 0;
 }
 /* -----Quarters----- */
 .quarter {
@@ -127,7 +127,7 @@
 }
 
 .q1:hover ~ .info-box #growth-mindset {
-   display: block;
+   left: 0;
 }
 /* ---q2--- */
 .q2 {
@@ -147,7 +147,7 @@
 }
 
 .q2:hover ~ .info-box #relationship-management {
-   display: block;
+   left: 0;
 }
 /* ---q3--- */
 .q3 {
@@ -167,7 +167,7 @@
 }
 
 .q3:hover ~ .info-box #professional-foundation {
-   display: block;
+   left: 0;
 }
 /* ---q4--- */
 .q4 {
@@ -187,7 +187,7 @@
 }
 
 .q4:hover ~ .info-box #career-navigation {
-   display: block;
+   left: 0;
 }
 /* ---Information Boxes--- */
 .info-box {
@@ -211,30 +211,48 @@
 
 #emotional-intelligence {
    background-color: #F3ECE1;
-   display: none;
+   position: absolute;
+   width: 560px;
+   left: -1000px;
+   top: 520px;
 }
 
 #diversity-inclusivity {
    background-color: #D3DED8;
-   display: none;
+   position: absolute;
+   width: 560px;
+   left: -1000px;
+   top: 520px;
 }
 
 #relationship-management {
 	background-color: #EEF0E8;
-   display: none;
+   position: absolute;
+   width: 560px;
+   left: -1000px;
+   top: 520px;
 }
 
 #professional-foundation {
    background-color: #DEDDDE;
-   display: none;
+   position: absolute;
+   width: 560px;
+   left: -1000px;
+   top: 520px;
 }
 
 #career-navigation {
    background-color: #E8E0D4;
-   display: none;
+   position: absolute;
+   width: 560px;
+   left: -1000px;
+   top: 520px;
 }
 
 #growth-mindset {
    background-color: #D9D4C6;
-   display: none;
+   position: absolute;
+   width: 560px;
+   left: -1000px;
+   top: 520px;
 }
