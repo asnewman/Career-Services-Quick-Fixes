@@ -1,6 +1,6 @@
 /*
  * Created by: Ashley Newman (asnewman@calpoly.edu)
- * Last updated: 04/23/2018
+ * Last updated: 05/23/2018
  * Used for the Career Services Readiness Model
  */
 
@@ -23,25 +23,24 @@
 
 .circle-main {
    width:500px !important;
-   height: 1000px !important;
    position: relative !important;
 }
 
 .circle {
-	border-radius: 50% !important;
+   border-radius: 50% !important;
 }
 
 /* -----Outer Circle----- */
 .outer {
-	position: relative !important;
-	background-color:  #B4A76C !important;
-	width: 500px !important;
-	height: 500px !important;
+   position: relative !important;
+   background-color:  #B4A76C !important;
+   width: 500px !important;
+   height: 500px !important;
    text-align: center !important;
 }
 
 .outer p {
-   padding-top: 15px !important;
+   padding-top: 20px !important;
 }
 
 .outer:hover {
@@ -54,17 +53,17 @@
 }
 
 .outer:hover ~ .info-box #emotional-intelligence {
-   left: 0;
+   left: 540px;
 }
 
 /* -----Middle Circle----- */
 .middle {
-	position: absolute !important;
-   top: 55px !important;
-   left: 50px !important;
-	background-color: #035642 !important;
-	width: 400px !important;
-	height: 400px !important;
+   position: absolute !important;
+   top: 62px !important;
+   left: 55px !important;
+   background-color: #035642 !important;
+   width: 400px !important;
+   height: 400px !important;
    text-align: center !important;
    animation-delay: 1s;
    -webkit-animation-delay: .2s;
@@ -73,7 +72,7 @@
 }
 
 .middle p {
-   padding-top: 10px !important;
+   padding-top: 8px !important;
 }
 
 .middle:hover {
@@ -86,13 +85,13 @@
 }
 
 .middle:hover ~ .info-box #diversity-inclusivity {
-   left: 0;
+   left: 540px;
 }
 /* -----Quarters----- */
 .quarter {
-	position: absolute !important;
-	width: 150px !important;
-	height: 150px !important;
+   position: absolute !important;
+   width: 150px !important;
+   height: 150px !important;
 } 
 
 .quarter:hover {
@@ -111,10 +110,10 @@
 
 /* ---q1--- */
 .q1 {
-	border-radius: 100% 0 0 0 !important;
-	background-color: #ccc5b5 !important;
-	top: 105px !important;
-	left: 100px !important;
+   border-radius: 100% 0 0 0 !important;
+   background-color: #ccc5b5 !important;
+   top: 110px !important;
+   left: 105px !important;
    -webkit-animation-delay: .4s;
    -moz-animation-delay: .4s;
    -ms-animation-delay: .4s;
@@ -122,19 +121,19 @@
 
 .q1 p {
    position: absolute !important;
-   top: 65px !important;
-   left: 65px !important;
+   top: 70px !important;
+   left: 70px !important;
 }
 
 .q1:hover ~ .info-box #growth-mindset {
-   left: 0;
+   left: 540px;
 }
 /* ---q2--- */
 .q2 {
-	border-radius: 0 100% 0 0 !important;
-	background-color: #9cad89 !important;
-	top: 105px !important;
-	left: 250px !important;
+   border-radius: 0 100% 0 0 !important;
+   background-color: #9cad89 !important;
+   top: 110px !important;
+   left: 255px !important;
    -webkit-animation-delay: .6s;
    -moz-animation-delay: .6s;
    -ms-animation-delay: .6s;
@@ -142,19 +141,19 @@
 
 .q2 p {
    position: absolute !important;
-   top: 65px !important;
-   left: 20px !important;
+   top: 70px !important;
+   left: 15px !important;
 }
 
 .q2:hover ~ .info-box #relationship-management {
-   left: 0;
+   left: 540px;
 }
 /* ---q3--- */
 .q3 {
-	border-radius: 0 0 100% 0 !important;
-	background-color: #85766f !important;
-	top: 255px !important;
-	left: 250px !important;
+   border-radius: 0 0 100% 0 !important;
+   background-color: #85766f !important;
+   top: 260px !important;
+   left: 255px !important;
    -webkit-animation-delay: .8s;
    -moz-animation-delay: .8s;
    -ms-animation-delay: .8s;
@@ -167,14 +166,14 @@
 }
 
 .q3:hover ~ .info-box #professional-foundation {
-   left: 0;
+   left: 540px;
 }
 /* ---q4--- */
 .q4 {
-	border-radius: 0 0 0 100% !important;
-	background-color: #b5a37f !important;
-	top: 255px !important;
-	left: 100px !important;
+   border-radius: 0 0 0 100% !important;
+   background-color: #b5a37f !important;
+   top: 260px !important;
+   left: 105px !important;
    -webkit-animation-delay: 1s;
    -moz-animation-delay: 1s;
    -ms-animation-delay: 1s;
@@ -187,7 +186,7 @@
 }
 
 .q4:hover ~ .info-box #career-navigation {
-   left: 0;
+   left: 540px;
 }
 /* ---Information Boxes--- */
 .info-box {
@@ -212,47 +211,47 @@
 #emotional-intelligence {
    background-color: #F3ECE1;
    position: absolute;
-   width: 560px;
+   width: 450px;
    left: -99999999px;
-   top: 520px;
+   top: 140px;
 }
 
 #diversity-inclusivity {
    background-color: #D3DED8;
    position: absolute;
-   width: 560px;
+   width: 450px;
    left: -99999999px;
-   top: 520px;
+   top: 140px;
 }
 
 #relationship-management {
-	background-color: #EEF0E8;
+   background-color: #EEF0E8;
    position: absolute;
-   width: 560px;
+   width: 450px;
    left: -99999999px;
-   top: 520px;
+   top: 140px;
 }
 
 #professional-foundation {
    background-color: #DEDDDE;
    position: absolute;
-   width: 560px;
+   width: 450px;
    left: -99999999px;
-   top: 520px;
+   top: 140px;
 }
 
 #career-navigation {
    background-color: #E8E0D4;
    position: absolute;
-   width: 560px;
+   width: 450px;
    left: -99999999px;
-   top: 520px;
+   top: 140px;
 }
 
 #growth-mindset {
    background-color: #D9D4C6;
    position: absolute;
-   width: 560px;
+   width: 450px;
    left: -99999999px;
-   top: 520px;
+   top: 140px;
 }
