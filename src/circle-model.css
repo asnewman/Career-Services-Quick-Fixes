@@ -59,8 +59,8 @@
 /* -----Middle Circle----- */
 .middle {
    position: relative; !important;
-   top: 60px;
-   left: 55px;
+   top: 56px;
+   left: 50px;
    background-color: #035642 !important;
    width: 400px !important;
    height: 400px !important;
@@ -72,7 +72,7 @@
 }
 
 .middle p {
-   padding-top: 8px !important;
+   padding-top: 20px !important;
    width: 150px;
    margin: 0 auto;
    margin-top: 10px;
