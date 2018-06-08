@@ -89,7 +89,7 @@
 
 /* -----Quarters----- */
 .quarter {
-   position: absolute !important;
+   position: relative !important;
    width: 150px !important;
    height: 150px !important;
 } 
