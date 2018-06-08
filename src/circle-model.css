@@ -9,10 +9,6 @@
 
 }
 
-.content {
-   height: 1000px;
-}
-
 .circle p {
    color: #FFF !important;
    font-family: 'Open Sans', sans-serif !important; /* Sadly, all these important tags are necessary due to files I do not have access to */
@@ -36,7 +32,7 @@
 
 /* -----Outer Circle----- */
 .outer {
-   position: absolute; !important;
+   position: relative !important;
    background-color:  #B4A76C !important;
    width: 500px !important;
    height: 500px !important;
@@ -58,9 +54,9 @@
 
 /* -----Middle Circle----- */
 .middle {
-   position: relative; !important;
-   top: 56px;
-   left: 50px;
+   position: absolute !important;
+   top: 63px;
+   left: 55px;
    background-color: #035642 !important;
    width: 400px !important;
    height: 400px !important;
@@ -72,7 +68,7 @@
 }
 
 .middle p {
-   padding-top: 20px !important;
+   padding-top: 8px !important;
    width: 150px;
    margin: 0 auto;
    margin-top: 10px;
@@ -89,7 +85,7 @@
 
 /* -----Quarters----- */
 .quarter {
-   position: relative !important;
+   position: absolute !important;
    width: 150px !important;
    height: 150px !important;
 } 
