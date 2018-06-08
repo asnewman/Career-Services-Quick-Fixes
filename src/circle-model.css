@@ -45,7 +45,7 @@
 }
 
 .outer p {
-   padding-top: 20px !important;
+   padding-top: 10px !important;
 }
 
 .outer:hover {
@@ -60,8 +60,8 @@
 /* -----Middle Circle----- */
 .middle {
    position: absolute !important;
-   top: 63px;
-   left: 55px;
+   top: 52px;
+   left: 50px;
    background-color: #035642 !important;
    width: 400px !important;
    height: 400px !important;
@@ -113,8 +113,8 @@
 .q1 {
    border-radius: 100% 0 0 0 !important;
    background-color: #ccc5b5 !important;
-   top: 115px;
-   left: 105px;
+   top: 105px;
+   left: 100px;
    -webkit-animation-delay: .4s;
    -moz-animation-delay: .4s;
    -ms-animation-delay: .4s;
@@ -130,8 +130,8 @@
 .q2 {
    border-radius: 0 100% 0 0 !important;
    background-color: #9cad89 !important;
-   top: 115px;
-   left: 255px;
+   top: 105px;
+   left: 250px;
    -webkit-animation-delay: .6s;
    -moz-animation-delay: .6s;
    -ms-animation-delay: .6s;
@@ -147,8 +147,8 @@
 .q3 {
    border-radius: 0 0 100% 0 !important;
    background-color: #85766f !important;
-   top: 265px;
-   left: 255px;
+   top: 255px;
+   left: 250px;
    -webkit-animation-delay: .8s;
    -moz-animation-delay: .8s;
    -ms-animation-delay: .8s;
@@ -164,8 +164,8 @@
 .q4 {
    border-radius: 0 0 0 100% !important;
    background-color: #b5a37f !important;
-   top: 265px;
-   left: 105px;
+   top: 255px;
+   left: 100px;
    -webkit-animation-delay: 1s;
    -moz-animation-delay: 1s;
    -ms-animation-delay: 1s;
