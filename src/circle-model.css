@@ -9,6 +9,10 @@
 
 }
 
+.content {
+   position: relative;
+}
+
 .circle p {
    color: #FFF !important;
    font-family: 'Open Sans', sans-serif !important; /* Sadly, all these important tags are necessary due to files I do not have access to */
@@ -32,7 +36,7 @@
 
 /* -----Outer Circle----- */
 .outer {
-   position: relative !important;
+   position: absolute !important;
    background-color:  #B4A76C !important;
    width: 500px !important;
    height: 500px !important;
